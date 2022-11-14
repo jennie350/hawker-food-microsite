@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 150ms ease-in-out;
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+}
+
+h2{
+    font-size: 18px;
+}
+
+button {
+display: block;
+margin: 10px auto;
+padding: 10px 10px;
+border-radius: 6px;
+background: bisque;
+font-family: 'Sono', sans-serif;
+transition: all 150ms ease-in-out;
+}
+
+button:hover{
+background: orange;
+cursor: pointer;
+
+}
+
+footer {
+text-align: center;
+padding: 20px;
+font-family: 'Sono', sans-serif;
+}
+
+.container {
+    max-width: 680px;
+padding: 30px;
+margin: 0 auto;
+background: white;
+border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 1;
+}
+
+.grid img:hover{
+        transform:scale(1.1)
+    }
+
+    .night {
+        background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+        color: white;
+    }
+
+    .night .container {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .night button {
+        background: orange;
+        color: white;
+    }
+
+    .night button:hover{
+        background: bisque;
+    }
